@@ -18,12 +18,12 @@ public class Depth {
     }
 
     public static void main(String[] args) {
-        Node root = new Node(50); //NUEVA RAÍZ
+        Node root = new Node(50);
         root.left = new Node(30);
         root.right = new Node(70);
         root.left.left = new Node(20);
         root.left.right = new Node(40);
-        root.left.left.left = new Node(10); //NODO MÁS PROFUNDO
+        root.left.left.left = new Node(10); 
 
         Depth d = new Depth();
         int profundidad = d.maxDepth(root);

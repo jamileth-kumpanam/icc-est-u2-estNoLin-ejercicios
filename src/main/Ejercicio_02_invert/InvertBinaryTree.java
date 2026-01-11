@@ -42,7 +42,7 @@ public class InvertBinaryTree {
     }
 
     public static void main(String[] args) {
-        Node root = new Node(8); // NUEVA RAÍZ
+        Node root = new Node(8); 
         root.left = new Node(4);
         root.right = new Node(10);
         root.left.left = new Node(2);
