@@ -28,6 +28,6 @@ public class Depth {
         Depth d = new Depth();
         int profundidad = d.maxDepth(root);
 
-        System.out.println("Profundidad máxima del árbol: " + profundidad); // Esperado: 4
+        System.out.println("Profundidad máxima del árbol: " + profundidad);
     }
 }

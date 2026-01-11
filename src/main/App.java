@@ -10,5 +10,4 @@ public class App {
         System.out.println("✉️  Correo: jkumpanam@est.ups.edu.ec " + estudiante.correo());
         // NO MODIFICAR HASTA AQUÍ
     }
-
 }

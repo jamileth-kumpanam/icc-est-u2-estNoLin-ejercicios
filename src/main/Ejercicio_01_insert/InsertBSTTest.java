@@ -45,12 +45,16 @@ public class InsertBSTTest {
 
     public static void main(String[] args) {
         InsertBSTTest tree = new InsertBSTTest();
-        int[] valores = {10, 5, 15, 3, 7, 12, 18}; // NUEVOS VALORES
+        int[] valores = {5, 3, 7, 2, 4, 6, 8}; 
         Node root = null;
 
         for (int v : valores) {
             root = tree.insert(root, v);
         }
+
+        System.out.println("Input:\n" + "[5, 3, 7, 2, 4, 6, 8]");
+        
+        System.out.println();
 
         System.out.println("Árbol BST insertado por niveles:");
         printLevelOrder(root);
